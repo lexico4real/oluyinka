@@ -712,7 +712,7 @@ function App() {
                         aria-controls='Cars'
                         aria-selected='false'
                       >
-                        Web Design
+                        UI/UX Design
                       </a>
                     </li>
                     <li className='nav-item'>
@@ -725,7 +725,7 @@ function App() {
                         aria-controls='City'
                         aria-selected='false'
                       >
-                        Branding
+                        Web Application
                       </a>
                     </li>
                     <li className='nav-item'>
@@ -738,7 +738,7 @@ function App() {
                         aria-controls='Forest'
                         aria-selected='false'
                       >
-                        Photography
+                        Mobile Application
                       </a>
                     </li>
                   </ul>
@@ -762,8 +762,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/pc1.jpg'
@@ -780,8 +780,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/pc2.jpg'
@@ -798,8 +798,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/pc3.jpg'
@@ -816,8 +816,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/pc4.jpg'
@@ -834,8 +834,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/pc5.jpg'
@@ -852,8 +852,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/pc6.jpg'
@@ -879,8 +879,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/g1.png'
@@ -897,8 +897,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/g4.png'
@@ -915,8 +915,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/g6.png'
@@ -942,8 +942,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/g1.png'
@@ -960,8 +960,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/g2.png'
@@ -978,8 +978,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/g6.png'
@@ -1005,8 +1005,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/g2.png'
@@ -1023,8 +1023,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/g4.png'
@@ -1041,8 +1041,8 @@ function App() {
                           />
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
-                            <h5 className='title'>Creative Design</h5>
-                            <span className='sub-title'>Photograpy</span>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
                             <a
                               className='gallery'
                               href='assets/images/g5.png'
@@ -1133,9 +1133,7 @@ function App() {
                       src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609600091!2d72.7411019849437!3d19.082197841114034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1549273138294'
                       width='100%'
                       height='100%'
-                      frameborder='0'
                       style={{ border: '0' }}
-                      allowfullscreen
                       title='map'
                     ></iframe>
                   </div>
