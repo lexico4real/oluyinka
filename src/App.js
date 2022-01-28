@@ -1,6 +1,39 @@
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [status, setStatus] = useState('Submit');
+  const [result, setResult] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus('Sending...');
+    const { name, email, message, subject, phone } = e.target.elements;
+    let details = {
+      name: name.value,
+      email: email.value,
+      subject: subject.value,
+      phone: phone.value,
+      message: message.value,
+    };
+    let response = await fetch('http://localhost:5000/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+      },
+      body: JSON.stringify(details),
+    });
+    setStatus('Submit');
+    let result = await response.json();
+    setResult(result.status);
+    // alert(result.status);
+    name.value = '';
+    email.value = '';
+    subject.value = '';
+    phone.value = '';
+    message.value = '';
+  };
+
   return (
     <div className='App'>
       <div className='header_wapper wow fadeInUp' id='header'>
@@ -194,23 +227,20 @@ function App() {
                 </div>
                 <ul className='db_common_text db_personal_details'>
                   <li className='wow fadeInUp'>
-                    <strong>Birthdate</strong>22-08-1988
-                  </li>
-                  <li className='wow fadeInUp'>
                     <strong>Phone</strong>+234 802 099 6658
                   </li>
                   <li className='wow fadeInUp'>
                     <strong>Email</strong>lexico4real@gmail.com
                   </li>
                   <li className='wow fadeInUp'>
-                    <strong>website</strong>www.oluyikaabu.com
+                    <strong>website</strong>tinyurl.com/22f6t48u
                   </li>
                   <li className='wow fadeInUp'>
                     <strong>ADDRESS</strong>Lagos, NG
                   </li>
                   <li className='wow fadeInUp'>
                     <strong>Job Status</strong>
-                    <span>SNR SOFTWARE DEVELOPER</span>
+                    <span>FULL-STACK DEVELOPER</span>
                   </li>
                 </ul>
               </div>
@@ -764,10 +794,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/pc1.jpg'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/pc1.jpg'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -781,11 +810,10 @@ function App() {
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
-                            <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/pc2.jpg'
-                            ><span /></a>
+                            <span className='sub-title'>Just click here!</span>
+                            <a className='gallery' href='assets/images/pc2.jpg'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -800,10 +828,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/pc3.jpg'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/pc3.jpg'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -818,10 +845,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/pc4.jpg'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/pc4.jpg'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -836,10 +862,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/pc5.jpg'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/pc5.jpg'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -854,10 +879,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/pc6.jpg'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/pc6.jpg'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -881,10 +905,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/g1.png'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/g1.png'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -899,10 +922,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/g4.png'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/g4.png'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -917,10 +939,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/g6.png'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/g6.png'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -944,10 +965,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/g1.png'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/g1.png'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -962,10 +982,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/g2.png'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/g2.png'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -980,10 +999,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/g6.png'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/g6.png'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -1007,10 +1025,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/g2.png'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/g2.png'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -1025,10 +1042,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/g4.png'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/g4.png'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -1043,10 +1059,9 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a
-                              className='gallery'
-                              href='assets/images/g5.png'
-                            ><span /></a>
+                            <a className='gallery' href='assets/images/g5.png'>
+                              <span />
+                            </a>
                           </figcaption>
                         </div>
                       </div>
@@ -1073,23 +1088,19 @@ function App() {
             <div className='row'>
               <div className='col-lg-6'>
                 <div className='contact_info_section wow fadeInUp'>
-                  <form
-                    className='contant_form'
-                    id='contact-form'
-                    action='assets/mail.php'
-                    method='post'
-                  >
+                  <form className='contant_form' onSubmit={handleSubmit}>
                     <div className='contant_form_row'>
                       <input
                         name='name'
                         type='text'
                         placeholder='Your Name'
                         className='input-group'
+                        required
                       />
                     </div>
                     <div className='contant_form_row'>
                       <input
-                        name=''
+                        name='phone'
                         type='text'
                         placeholder='Phone Number'
                         className='input-group'
@@ -1099,6 +1110,7 @@ function App() {
                       <input
                         name='email'
                         type='email'
+                        required
                         placeholder='Email Address'
                         className='input-group'
                       />
@@ -1109,6 +1121,7 @@ function App() {
                         type='text'
                         placeholder='Subject'
                         className='input-group'
+                        required
                       />
                     </div>
                     <div className='contant_form_row'>
@@ -1116,21 +1129,26 @@ function App() {
                         name='message'
                         placeholder='Message'
                         className='textarea-group'
+                        required
                       ></textarea>
                     </div>
+                    {result === 'SUCCESS' && (
+                      <div className='alert alert-success'>
+                        <strong>Received!</strong> I will get back to you soon.
+                      </div>
+                    )}
                     <button className='btn01' type='submit'>
-                      Send Message <i className='fa fa-paper-plane'></i>
+                      {status} <i className='fa fa-paper-plane'></i>
                     </button>
                   </form>
                   <br />
-                  <p className='form-messege'></p>
                 </div>
               </div>
               <div className='col-lg-6'>
                 <div className='google_map_wapper wow fadeInUp'>
                   <div className='google_map_box'>
                     <iframe
-                      src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609600091!2d72.7411019849437!3d19.082197841114034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1549273138294'
+                      src='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15856.810550871178!2d3.3846708999999997!3d6.49600975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1643074702766!5m2!1sen!2sng'
                       width='100%'
                       height='100%'
                       style={{ border: '0' }}
@@ -1141,10 +1159,32 @@ function App() {
                     <div className='google_info'>
                       <ul>
                         <li className='address_icon'>
-                          123 Lorem ipsum dolor sit amet elite
+                          <a
+                            href='https://www.google.com/maps/place/32+Moleye+Street,+Alagomeji-Yaba+234-01,+Lagos/@6.5006936,3.3765149,17z/data=!3m1!4b1!4m5!3m4!1s0x103b8c602dc9a333:0x985947fac6db3ca8!8m2!3d6.5006936!4d3.3787036'
+                            target='_blank'
+                            rel='noreferrer'
+                            style={{ color: 'white' }}
+                          >
+                            100001, Lagos, Nigeria
+                          </a>
                         </li>
-                        <li className='call_icon'>Call us: 0123 456 7890</li>
-                        <li className='email_icon'>Email: cv@example.com</li>
+                        <li className='call_icon'>
+                          <a
+                            href='tel:+2348020796658'
+                            style={{ color: 'white' }}
+                          >
+                            {' '}
+                            +234 802 079 6658
+                          </a>
+                        </li>
+                        <li className='email_icon'>
+                          <a
+                            href='mailto:lexico4real@gmail.com'
+                            style={{ color: 'white' }}
+                          >
+                            lexico4real@gmail.com
+                          </a>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -1165,33 +1205,53 @@ function App() {
                 <div className='social db_common_text'>
                   <ul>
                     <li>
-                      <a href='/'>
+                      <a
+                        href='https://web.facebook.com/Proverbman'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         {' '}
                         <i className='fa fa-facebook'></i>{' '}
                       </a>
                     </li>
                     <li>
-                      <a href='/'>
+                      <a
+                        href='https://twitter.com/Bright1st'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         {' '}
                         <i className='fa fa-twitter'></i>{' '}
                       </a>
                     </li>
                     <li>
-                      <a href='/'>
+                      <a
+                        href='https://join.skype.com/invite/jeuhYtJhzHsT'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         {' '}
                         <i className='fa fa-skype'></i>{' '}
                       </a>
                     </li>
                     <li>
-                      <a href='/'>
+                      <a
+                        href='https://www.linkedin.com/in/oluyinka-abubakar-b31782124/'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         {' '}
                         <i className='fa fa-linkedin'></i>{' '}
                       </a>
                     </li>
                     <li>
-                      <a href='/'>
+                      <a
+                        href='https://github.com/lexico4real'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         {' '}
-                        <i className='fa fa-rss'></i>{' '}
+                        <i className='fa fa-github'></i>{' '}
                       </a>
                     </li>
                   </ul>
@@ -1199,7 +1259,8 @@ function App() {
               </div>
               <div className='col-lg-12'>
                 <div className='Copyright db_common_text'>
-                  © Copyright 2019 <strong>Oluyinka</strong>. All rights reserved.
+                  © Copyright 2019 <strong>Oluyinka</strong>. All rights
+                  reserved.
                 </div>
               </div>
             </div>
