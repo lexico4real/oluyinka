@@ -768,7 +768,7 @@ function App() {
                         aria-controls='Forest'
                         aria-selected='false'
                       >
-                        Mobile Application
+                        Others
                       </a>
                     </li>
                   </ul>
@@ -785,16 +785,22 @@ function App() {
                     <div className='row justify-content-md-center'>
                       <div className='col-lg-4 col-md-6'>
                         <div className='Portfolio'>
-                          <img
-                            className='card-img'
-                            src='assets/images/pc1.jpg'
-                            alt=''
-                          />
+                          <a href='/'>
+                            <img
+                              className='card-img'
+                              src='assets/images/pc1.jpg'
+                              alt=''
+                            />
+                          </a>
                           <figcaption className='fig-caption'>
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/pc1.jpg'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -811,7 +817,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click here!</span>
-                            <a className='gallery' href='assets/images/pc2.jpg'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -828,7 +838,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/pc3.jpg'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -845,7 +859,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/pc4.jpg'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -862,7 +880,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/pc5.jpg'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -879,7 +901,149 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/pc6.jpg'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
+                              <span />
+                            </a>
+                          </figcaption>
+                        </div>
+                      </div>
+                      <div className='col-lg-4 col-md-6'>
+                        <div className='Portfolio'>
+                          <a href='/'>
+                            <img
+                              className='card-img'
+                              src='assets/images/g4.png'
+                              alt=''
+                            />
+                          </a>
+                          <figcaption className='fig-caption'>
+                            <i className='fa fa-search'></i>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
+                              <span />
+                            </a>
+                          </figcaption>
+                        </div>
+                      </div>
+                      <div className='col-lg-4 col-md-6'>
+                        <div className='Portfolio'>
+                          <a href='/'>
+                            <img
+                              className='card-img'
+                              src='assets/images/g2.png'
+                              alt=''
+                            />
+                          </a>
+                          <figcaption className='fig-caption'>
+                            <i className='fa fa-search'></i>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
+                              <span />
+                            </a>
+                          </figcaption>
+                        </div>
+                      </div>
+                      <div className='col-lg-4 col-md-6'>
+                        <div className='Portfolio'>
+                          <a href='/'>
+                            <img
+                              className='card-img'
+                              src='assets/images/g1.png'
+                              alt=''
+                            />
+                          </a>
+                          <figcaption className='fig-caption'>
+                            <i className='fa fa-search'></i>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
+                              <span />
+                            </a>
+                          </figcaption>
+                        </div>
+                      </div>
+                      <div className='col-lg-4 col-md-6'>
+                        <div className='Portfolio'>
+                          <a href='/'>
+                            <img
+                              className='card-img'
+                              src='assets/images/g7.png'
+                              alt=''
+                            />
+                          </a>
+                          <figcaption className='fig-caption'>
+                            <i className='fa fa-search'></i>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
+                              <span />
+                            </a>
+                          </figcaption>
+                        </div>
+                      </div>
+                      <div className='col-lg-4 col-md-6'>
+                        <div className='Portfolio'>
+                          <a href='/'>
+                            <img
+                              className='card-img'
+                              src='assets/images/g6.png'
+                              alt=''
+                            />
+                          </a>
+                          <figcaption className='fig-caption'>
+                            <i className='fa fa-search'></i>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
+                              <span />
+                            </a>
+                          </figcaption>
+                        </div>
+                      </div>
+                      <div className='col-lg-4 col-md-6'>
+                        <div className='Portfolio'>
+                          <a href='/'>
+                            <img
+                              className='card-img'
+                              src='assets/images/g5.png'
+                              alt=''
+                            />
+                          </a>
+                          <figcaption className='fig-caption'>
+                            <i className='fa fa-search'></i>
+                            <h5 className='title'>Wanna feel it?</h5>
+                            <span className='sub-title'>Just click it!</span>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -905,7 +1069,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/g1.png'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -922,7 +1090,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/g4.png'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -939,7 +1111,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/g6.png'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -965,7 +1141,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/g1.png'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -982,7 +1162,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/g2.png'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -999,7 +1183,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/g6.png'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -1025,7 +1213,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/g2.png'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -1042,7 +1234,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/g4.png'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -1059,7 +1255,11 @@ function App() {
                             <i className='fa fa-search'></i>
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
-                            <a className='gallery' href='assets/images/g5.png'>
+                            <a
+                              href='https://www.livescore.com/en/'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                            >
                               <span />
                             </a>
                           </figcaption>
@@ -1088,7 +1288,12 @@ function App() {
             <div className='row'>
               <div className='col-lg-6'>
                 <div className='contact_info_section wow fadeInUp'>
-                  <form className='contant_form' onSubmit={handleSubmit}>
+                  <form
+                    className='contant_form'
+                    onSubmit={handleSubmit}
+                    netlify-honeypot='bot-field'
+                    data-netlify='true'
+                  >
                     <div className='contant_form_row'>
                       <input
                         name='name'
