@@ -803,7 +803,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://wtlte.csb.app/'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -824,7 +824,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click here!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://xrl70.csb.app/'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -845,7 +845,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://www.afya.care'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -866,7 +866,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://www.octosoft.ai'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -887,7 +887,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://xbfbz.csb.app/'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -908,7 +908,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://3t099.csb.app/'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -931,7 +931,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://mystifying-hopper-888887.netlify.app/'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -954,7 +954,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://bastionhmo.com/'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -977,7 +977,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://www.teachmetutorsng.com'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -1000,7 +1000,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://www.themenubyaj.com'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -1046,7 +1046,7 @@ function App() {
                             <h5 className='title'>Wanna feel it?</h5>
                             <span className='sub-title'>Just click it!</span>
                             <a
-                              href='https://www.livescore.com/en/'
+                              href='https://sct4d.csb.app/'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
