@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
 
+const port = 5000;
+const hostname = window.location.protocol + '//' + window.location.hostname;
+const baseUrl = hostname + ':' + port + '/contact';
+
+console.log(baseUrl);
+
 function App() {
   const [status, setStatus] = useState('Submit');
   const [result, setResult] = useState('');
@@ -16,7 +22,7 @@ function App() {
       phone: phone.value,
       message: message.value,
     };
-    let response = await fetch('http://localhost:5000/contact', {
+    let response = await fetch(baseUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
